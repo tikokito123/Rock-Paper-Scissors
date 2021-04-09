@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pangolin&family=Ranchers&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292C34;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+article{
+    color: bisque;
+    font-family: 'Pangolin', sans-serif;
+    font-size: 20px;
+    opacity: 0.7 !important;
+}
+footer{
+    color: aqua;
+}
+input, button{
+    width: 80%;
+    border: 3px solid rgb(104, 32, 32);
+    padding: 5px;
+}
+small{
+    color: black;
+    font-family: 'Pangolin', sans-serif;
+}
+.webTitle{
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 100px;
+    background-color: white;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+main{
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+nav > a{
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+ul{
+    color: chocolate;
+    font-size: 20px;
+    list-style: lower-greek;
+    list-style-position: outside;
+
+}
+table > thead{
+    color: darkorange;
+}
